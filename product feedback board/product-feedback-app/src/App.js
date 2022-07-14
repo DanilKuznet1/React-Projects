@@ -3,6 +3,7 @@ import { GlobalStyles } from "./Components/styles/Global";
 import Container from "./Components/Container";
 import PageTitle from "./Components/PageTitle";
 import Flex from "./Components/Flex";
+import Features from "./Components/Features";
 
 const theme = {
   colors: {
@@ -34,10 +35,13 @@ function App() {
       <>
         <GlobalStyles />
         <Container>
-          <Flex>
+          <Flex gap="2.5rem" direction="column">
             <PageTitle />
+            <Features />
           </Flex>
-          <Flex>Hello World</Flex>
+          <Flex gap="2.5rem" direction="column">
+            Hello World
+          </Flex>
         </Container>
       </>
     </ThemeProvider>

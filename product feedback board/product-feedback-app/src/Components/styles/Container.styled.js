@@ -10,7 +10,6 @@ export const StyledContainer = styled.div`
 
   div:first-child + div {
     flex-basis: 85%;
-    background-color: green;
   }
 
   @media (max-width: ${({ theme }) => theme.version.tablet.width}) {
@@ -20,7 +19,6 @@ export const StyledContainer = styled.div`
 
     div:first-child + div {
       flex-basis: 80%;
-      background-color: green;
     }
   }
 
@@ -31,7 +29,6 @@ export const StyledContainer = styled.div`
 
     div:first-child + div {
       flex-basis: 70%;
-      background-color: green;
     }
   }
 `;

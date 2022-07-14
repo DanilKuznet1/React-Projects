@@ -1,5 +1,9 @@
-import { StyledButton } from "./styles/Button.styled";
+import { FeaturesButton } from "./styles/Button.styled";
 
-export default function Button({ bg, children, ...rest }) {
-  return <StyledButton bg={bg}>{children}</StyledButton>;
+export default function Button({ bg, children, color }) {
+  return (
+    <FeaturesButton color={color} bg={bg}>
+      {children}
+    </FeaturesButton>
+  );
 }
