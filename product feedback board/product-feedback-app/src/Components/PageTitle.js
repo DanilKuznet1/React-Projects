@@ -10,7 +10,7 @@ export default function PageTitle(props) {
             alt=""
           />
           <h3>Frontend Mentor</h3>
-          <p>Feedback Board</p>
+          <h4>Feedback Board</h4>
         </div>
       </StyledPageTitle>
     </>

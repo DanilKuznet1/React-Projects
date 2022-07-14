@@ -22,13 +22,17 @@ export const StyledPageTitle = styled.div`
   }
 
   h3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     padding-top: 3.75rem;
+    letter-spacing: -0.15px;
+    font-weight: 500;
   }
 
-  p {
-    margin-top: 0.5rem;
+  h4 {
+    // margin-top: 0.25rem;
     font-size: 1.4rem;
+    font-weight: 300;
     opacity: 0.7;
+    letter-spacing: -0.15px;
   }
 `;

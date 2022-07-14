@@ -4,6 +4,7 @@ import Container from "./Components/Container";
 import PageTitle from "./Components/PageTitle";
 import Flex from "./Components/Flex";
 import Features from "./Components/Features";
+import RoadmapInfo from "./Components/RoadmapInfo";
 
 const theme = {
   colors: {
@@ -38,6 +39,7 @@ function App() {
           <Flex gap="2.5rem" direction="column">
             <PageTitle />
             <Features />
+            <RoadmapInfo />
           </Flex>
           <Flex gap="2.5rem" direction="column">
             Hello World

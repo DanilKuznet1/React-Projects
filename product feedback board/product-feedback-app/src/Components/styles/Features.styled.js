@@ -7,6 +7,7 @@ export const StyledFeatures = styled.div`
   border-radius: 1rem;
 
   & > button {
+    font-weight: 600;
     margin: 0.45rem;
   }
 `;

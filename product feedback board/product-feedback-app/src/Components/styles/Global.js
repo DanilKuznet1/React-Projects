@@ -1,8 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
-
   *,
   *::before,
   *::after {
@@ -23,6 +21,16 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   p {
+    font-size: 1.4rem;
+    font-weight: 600;;
+    color: ${({ theme }) => theme.colors.lightNavy};
     line-height: 1.5;
+    letter-spacing: 0.25px;
+  }
+
+  h5 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: ${({ theme }) => theme.colors.mediumNavy};
   }
 `;

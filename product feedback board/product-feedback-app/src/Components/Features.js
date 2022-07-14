@@ -7,9 +7,9 @@ export default function Features(props) {
   return (
     <>
       <StyledFeatures>
-        {featureNames.map((name) => {
+        {featureNames.map((name, index) => {
           return (
-            <Button color="blue" bg="mediumGray">
+            <Button key={index} color="blue" bg="mediumGray">
               {name}
             </Button>
           );
