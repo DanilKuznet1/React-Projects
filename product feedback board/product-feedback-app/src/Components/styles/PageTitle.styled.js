@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledPageTitle = styled.div`
   width: 100%;
-  height: 12.5rem;
+  // height: 12.5rem;
   border-radius: 1rem;
   color: #fff;
   position: relative;
@@ -23,6 +23,7 @@ export const StyledPageTitle = styled.div`
 
   h3 {
     font-size: 1.6rem;
+    padding-top: 3.75rem;
   }
 
   p {

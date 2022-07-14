@@ -2,6 +2,7 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./Components/styles/Global";
 import Container from "./Components/Container";
 import PageTitle from "./Components/PageTitle";
+import Flex from "./Components/Flex";
 
 const theme = {
   colors: {
@@ -33,10 +34,10 @@ function App() {
       <>
         <GlobalStyles />
         <Container>
-          <div>
+          <Flex>
             <PageTitle />
-          </div>
-          <div>World</div>
+          </Flex>
+          <Flex>Hello World</Flex>
         </Container>
       </>
     </ThemeProvider>
