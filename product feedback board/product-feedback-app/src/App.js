@@ -1,6 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./Components/styles/Global";
 import Container from "./Components/Container";
+import PageTitle from "./Components/PageTitle";
 
 const theme = {
   colors: {
@@ -16,6 +17,14 @@ const theme = {
     orange: "#F49F85",
     red: "#D73737",
   },
+  version: {
+    tablet: {
+      width: "96.8rem",
+    },
+    mobile: {
+      width: "76.8rem",
+    },
+  },
 };
 
 function App() {
@@ -24,7 +33,9 @@ function App() {
       <>
         <GlobalStyles />
         <Container>
-          <div>Hello</div>
+          <div>
+            <PageTitle />
+          </div>
           <div>World</div>
         </Container>
       </>

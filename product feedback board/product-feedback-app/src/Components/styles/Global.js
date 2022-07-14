@@ -17,10 +17,9 @@ export const GlobalStyles = createGlobalStyle`
 
   body {  
     font-family: 'Jost', sans-serif;
-    font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: ${(props) => props.theme.colors.lightGray};
     font-size: 1.6rem;
-    padding: 5rem 15rem
+    padding: 5rem 10.5rem
   }
 
   p {
