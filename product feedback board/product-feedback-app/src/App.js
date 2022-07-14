@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./Components/styles/Global";
-import Button from "./Components/Button";
+import Container from "./Components/Container";
 
 const theme = {
   colors: {
@@ -23,7 +23,10 @@ function App() {
     <ThemeProvider theme={theme}>
       <>
         <GlobalStyles />
-        <Button bg="red">Delete</Button>
+        <Container>
+          <div>Hello</div>
+          <div>World</div>
+        </Container>
       </>
     </ThemeProvider>
   );
