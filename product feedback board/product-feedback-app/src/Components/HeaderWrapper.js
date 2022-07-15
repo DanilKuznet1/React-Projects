@@ -8,7 +8,7 @@ export default function HeaderWrapper() {
       {/* here I will import other components such as Suggestions(), SortBy(), Button() */}
       <Flex align="center" content="space-between">
         Hello World
-        <Button color="white" bg="purple">
+        <Button color="white" bg="purple" onClick={() => console.log("1")}>
           Add Feedback
         </Button>
       </Flex>
