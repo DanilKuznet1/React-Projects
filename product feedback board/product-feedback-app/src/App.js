@@ -5,11 +5,14 @@ import PageTitle from "./Components/PageTitle";
 import Flex from "./Components/Flex";
 import Features from "./Components/Features";
 import RoadmapInfo from "./Components/RoadmapInfo";
+import HeaderWrapper from "./Components/HeaderWrapper";
 
 const theme = {
   colors: {
     purple: "#AD1FEA",
+    purpleHover: "#C75AF6",
     blue: "#4661E6",
+    blueHover: "#CFD7FF",
     lightBlue: "#62BCFA",
     darkNavy: "#373F68",
     lightNavy: "#3A4374",
@@ -42,7 +45,7 @@ function App() {
             <RoadmapInfo />
           </Flex>
           <Flex gap="2.5rem" direction="column">
-            Hello World
+            <HeaderWrapper />
           </Flex>
         </Container>
       </>

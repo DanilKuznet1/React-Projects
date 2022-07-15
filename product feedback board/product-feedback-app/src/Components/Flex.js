@@ -4,6 +4,7 @@ export default function Flex(props) {
   return (
     <>
       <StyledFlex
+        mb={props.mb}
         content={props.content}
         align={props.align}
         gap={props.gap}

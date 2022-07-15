@@ -25,7 +25,7 @@ export default function RoadmapData() {
       <StyledRoadmapData>
         {roadmapData.map((data, index) => {
           return (
-            <Flex key={index} content="space-between">
+            <Flex key={index} content="space-between" mb=".5rem">
               <div>
                 <SpanCircle bg={data.bg}></SpanCircle>
                 <h5>{data.text}</h5>

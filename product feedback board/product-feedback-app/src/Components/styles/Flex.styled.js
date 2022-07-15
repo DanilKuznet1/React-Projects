@@ -6,5 +6,5 @@ export const StyledFlex = styled.div`
   justify-content: ${({ content }) => content || ""};
   flex-direction: ${({ direction }) => direction || "row"};
   gap: ${({ gap }) => gap};
-  margin-bottom: 1rem;
+  margin-bottom: ${({ mb }) => mb || "0"};
 `;

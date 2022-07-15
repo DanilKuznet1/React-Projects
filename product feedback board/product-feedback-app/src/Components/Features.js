@@ -9,7 +9,13 @@ export default function Features(props) {
       <StyledFeatures>
         {featureNames.map((name, index) => {
           return (
-            <Button key={index} color="blue" bg="mediumGray">
+            <Button
+              onClick={() => console.log({ name })}
+              features
+              key={index}
+              color="blue"
+              bg="mediumGray"
+            >
               {name}
             </Button>
           );
