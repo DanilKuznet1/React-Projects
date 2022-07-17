@@ -1,11 +1,13 @@
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./Components/styles/Global";
+import { StyledSidebar } from "./Components/styles/Sidebar.styled";
 import Container from "./Components/Container";
 import PageTitle from "./Components/PageTitle";
 import Flex from "./Components/Flex";
 import Features from "./Components/Features";
 import RoadmapInfo from "./Components/RoadmapInfo";
 import HeaderWrapper from "./Components/HeaderWrapper";
+import Body from "./Components/Body";
 
 const theme = {
   colors: {
@@ -39,13 +41,14 @@ function App() {
       <>
         <GlobalStyles />
         <Container>
-          <Flex gap="2.5rem" direction="column">
+          <StyledSidebar>
             <PageTitle />
             <Features />
             <RoadmapInfo />
-          </Flex>
+          </StyledSidebar>
           <Flex gap="2.5rem" direction="column">
             <HeaderWrapper />
+            <Body />
           </Flex>
         </Container>
       </>
